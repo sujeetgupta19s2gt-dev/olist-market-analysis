@@ -29,3 +29,13 @@ An end-to-end data analysis and machine learning pipeline evaluating Olist's Bra
 * **Proactive Telemetry:** Deploy an early-warning system flagging shipments falling behind schedule 48 hours prior to promised delivery dates.
 * **Customer Recovery Loops:** Manage expectations and transmit tracking updates before dissatisfied customers leave 1-star reviews.
 * **Merchant Scorecards:** Institute weekly performance reviews targeting high-delay seller accounts.
+
+# Olist Dataset Download Instructions
+
+To keep this repository lightweight and clean, raw Olist CSV files are not tracked in version control. 
+
+If you wish to run the `olist_market_analysis.ipynb` notebook locally, please download the original dataset files from Kaggle and place them into this `data/` directory:
+
+1. Visit the [Kaggle Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
+2. Download and extract the CSV files (`olist_customers_dataset.csv`, `olist_orders_dataset.csv`, `olist_order_items_dataset.csv`, `olist_order_payments_dataset.csv`, `olist_order_reviews_dataset.csv`, `olist_products_dataset.csv`, etc.).
+3. Place all extracted CSV files directly inside this `data/` folder before running the notebook.
